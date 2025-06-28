@@ -44,7 +44,7 @@ namespace Mongo.Web.Controllers
 
                 if (response != null && response.IsSuccess)
                 {
-                    TempData["success"] = "Cuopon create successfully";
+                    TempData["success"] = "Cuopon created successfully";
                     return RedirectToAction(nameof(CouponIndex));
                 }
                 else

@@ -2,10 +2,10 @@
 {
     public class JwtOptions
     {
-        public string Sceret { get; set; } = string.Empty;
-
         public string Issuer { get; set; } = string.Empty;
 
-        public string Audienece { get; set; } = string.Empty;
+        public string Audience { get; set; } = string.Empty;
+
+        public string Secret { get; set; } = string.Empty;
     }           
 }              
